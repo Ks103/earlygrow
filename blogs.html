@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600&family=Inter:wght@700;800&display=swap" rel="stylesheet">
+    
+    <!-- Icon Font Stylesheet -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+    <!-- Libraries Stylesheet -->
+    <link href="lib/animate/animate.min.css" rel="stylesheet">
+    <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+
+    <!-- Customized Bootstrap Stylesheet -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Template Stylesheet -->
+    <link href="css/style.css" rel="stylesheet">
+    <!-- WOW.js and Animate.css -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+<script>
+    new WOW().init();
+</script>
+
+
+
+    <style>
+        .blog-card {
+            border: 5px dotted #007bff;
+            transition: all 0.3s ease-in-out;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+            min-height: 200px; /* Ensures uniform card height */
+            margin-bottom: 2rem;
+
+
+        }
+    
+        .blog-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15);
+        }
+    
+        .blog-card h5 {
+            color:  #00B98E;
+        }
+    
+        .blog-card p {
+            color: #555;
+        }
+    
+        .learn-more-btn {
+            background-color:  #00B98E;
+            border: none;
+            color: white;
+            padding: 8px 12px;
+            font-size: 14px;
+            border-radius: 20px;
+            transition: background 0.3s ease-in-out;
+        }
+    
+        .learn-more-btn:hover {
+            background-color:  #01c698;
+            color: white;
+        }
+        .blog-card p {
+        color: #555;
+        display: -webkit-box;
+        -webkit-line-clamp: 3;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+
+    </style>
+</head>
+<body>
+ 
+    <div class="container-xxl py-5">
+        <div class="container">
+            <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+                <h1 class="mb-3">Latest Blog Posts</h1>
+                <p>Explore insightful articles on various topics, curated just for you. Click "Learn More" to read in detail.</p>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam.</h5>
+                        <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempora natus neque amet ea, vitae nobis repellendus laudantium veniam voluptates adipisci laborum possimus numquam illo veritatis rem minima necessitatibus in?</p>
+                        <a href="blog-detail-2.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+                 <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+                    <div class="blog-card bg-white border rounded p-4">
+                        <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                        <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                        <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+                    </div>
+                </div>
+
+
+                
+            </div>
+        </div>
+
+
+
+<!-- most recent -->
+<div class="container">
+    <div class="text-center mx-auto mb-5 wow fadeInUp" data-wow-delay="0.1s" style="max-width: 600px;">
+        <h1 class="mb-3">Most Recent Blogs </h1>
+       
+    </div>
+    <div class="row">
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, ipsam.</h5>
+                <p class="small">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas tempora natus neque amet ea, vitae nobis repellendus laudantium veniam voluptates adipisci laborum possimus numquam illo veritatis rem minima necessitatibus in?</p>
+                <a href="blog-detail-2.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div> <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+         <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
+            <div class="blog-card bg-white border rounded p-4">
+                <h5 class="fw-bold">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestiae, ullam.</h5>
+                <p class="small">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rerum sequi, accusantium modi eligendi odio maxime aperiam quis ratione laboriosam. Accusantium officiis optio, inventore nemo rem unde voluptates laudantium fugit? Cum.</p>
+                <a href="blog-detail-3.html" class="learn-more-btn">Learn More</a>
+            </div>
+        </div>
+
+
+        
+    </div>
+</div>
+
+
+
+    </div>
+</body>
+</html>
